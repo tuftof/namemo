@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>mekus mekus</title>
+    <script>
+
+        function coding()   {
+
+        var name = document.getElementById("name()").value;
+        var result = document.getElementById("outputValue");
+
+        switch (name){
+            case "Kirsten":
+                result.innerHTML = "Tanginamo kj";
+                break;
+            case "Zack":
+                result.innerHTML = "bai na bai si lunch break";
+                break;
+            case "Crizza":
+                result.innerHTML = "Crush si singkit";
+                break;
+            case "Regie":
+                result.innerHTML = "labyu mwa mwa";
+                break;
+            case "Rhian":
+                result.innerHTML = "Crush kita ganda mo";
+                break;
+            case "Jean Grey":
+                result.innerHTML = "panghe mo";
+                break;
+            case "Lance":
+                result.innerHTML = "MISS YOU MY BROTHER";
+                break;
+            default:
+                result.innerHTML = "pake ko sa name na yan";
+                break;
+
+
+        }
+        }
+    </script>
+</head>
+<body>
+
+    <div>
+    <label  for= "name()" style="font-size:20px">Enter your name: </label>
+        <input type="text" id="name()"/>
+        <br>
+        <button onclick="coding()" style="font-size: 20px; background-color:lightblue; border-radius: 10px;">Submit</button>
+        <p id="outputValue"></p>
+
+    </div>
+</body>
+</html>
